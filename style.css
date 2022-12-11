@@ -2,10 +2,12 @@
 
 * {
   box-sizing: border-box;
+  border-radius: 10%;
 }
 
 body {
   background-image: url('img/1.png');
+  position: relative;
   font-family: 'Roboto', sans-serif;
   display: flex;
   align-items: center;
@@ -21,9 +23,10 @@ body {
 }
 
 .search .input {
-  background-color: #fff;
+  background-color: rgb(48, 47, 47);
   border: 0;
   font-size: 18px;
+  color: azure;
   padding: 15px;
   height: 50px;
   width: 50px;
@@ -31,7 +34,7 @@ body {
 }
 
 .btn {
-  background-color: #fff;
+  background-color: rgb(48, 47, 47);
   border: 0;
   cursor: pointer;
   font-size: 24px;
